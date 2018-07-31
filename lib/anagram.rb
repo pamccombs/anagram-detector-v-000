@@ -9,6 +9,6 @@ class Anagram
   
   def match
     @words.each do |word|
-      word.split("")
+      word.split("").sort == 
   end
 end
