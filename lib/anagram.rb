@@ -12,7 +12,7 @@ class Anagram
     words.select do |xword|
       xword.split("").sort == @word.split("").sort
       anagram << xword
-      end
+      #end
     end
   end
 
