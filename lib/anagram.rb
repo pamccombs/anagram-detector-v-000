@@ -14,7 +14,7 @@ class Anagram
       anagram << xword
       end
     end
-    anagram
+    
   end
 
 end
