@@ -15,7 +15,6 @@ class Anagram
       end
     end
     anagram
-    
   end
 
 end
