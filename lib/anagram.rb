@@ -2,16 +2,19 @@
 
 class Anagram
   attr_accessor :word
-   def initialize(word)
+  
+  def ininitialize(word)
     @word = word
   end
-   def match(array)
-    result = []
-    array.each do |word_in_array|
-      if word_in_array.split("").sort == word.split("").sort
-        result << word_in_array
+  
+  def match(words)
+    anagram = []
+    words.select do |xword|
+      if xword.split("").sort == @word.split("").sort
+      anagram << xword
       end
     end
-    result
+    anagram
   end
- end
+
+end
