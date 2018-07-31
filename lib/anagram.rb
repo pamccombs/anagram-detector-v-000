@@ -11,7 +11,7 @@ class Anagram
     anagram = []
     words.each do |xword|
       if xword.split("").sort == word.split("").sort
-      anagram << word
+      anagram << xword
       end
     end
     
