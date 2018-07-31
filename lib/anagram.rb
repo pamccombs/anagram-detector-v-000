@@ -13,6 +13,7 @@ class Anagram
       word.split("").sort == @name.split("").sort
       anagram << word
     end
+    anagram
   end
 
 end
