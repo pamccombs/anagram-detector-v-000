@@ -1,10 +1,10 @@
 # Your code goes here!
 
 class Anagram
-  attr_accessor :word
+  attr_reader :word
   
   def ininitialize(word)
-    @name = word
+    @word = word
   end
   
   def match(array)
